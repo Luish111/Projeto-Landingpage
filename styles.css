@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+   margin-left: 75px;
+   margin-top: 50px;
+}
+#titulo1{
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+#paragrafo1{
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 20px;
+}
