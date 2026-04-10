@@ -1,22 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 #logo{
-   margin-left: 75px;
+   margin-left: 50px;
    margin-top: 50px;
 }
 #titulo1{
-    margin-left: 75px;
-    margin-top: 50px;
+    margin-left: 150px;
+    margin-top: 75px;
     font-size: 40px;
 }
 #paragrafo1{
-    margin-left: 75px;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
 }
+#menu_superior{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(imagens/fundo_menu_superior.svg);
+}
+
+#menu_informacional{
+    background-color: #EAECE5;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
